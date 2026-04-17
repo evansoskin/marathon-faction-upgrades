@@ -1,412 +1,368 @@
 #Faction Upgrade requirements
 #================
 CyberAcme:
-    upgrades:
-        - name: "EXPANSION"
-            levels: 5
-            level:
-                1:
-                    description:
-                        - Vault Size (+8 Rows)
-                    requirements:
-                        - rank: 3
-                        - materials:
-                            - Credits: 2500
-                            - Unstable Diode: 12
-                2: 
-                    description:
-                        - Vault Size (+8 Rows)
-                    requirements:
-                        - rank: 7
-                        - materials:
-                            - Credits: 4000
-                            - Unstable Diode: 22
-                            - Unstable Gunmetal: 12
-                3: 
-                    description:
-                        - Vault Size (+8 Rows)
-                    requirements:
-                        - rank: 12
-                        - materials:
-                            - Credits: 5000
-                            - Unstable Diode: 27
-                            - Unstable Gunmetal: 15
-                4: 
-                    description:
-                        - Vault Size (+8 Rows)
-                    requirements:
-                        - rank: 18
-                        - materials:
-                            - Credits: 7000
-                            - Unstable Diode: 30
-                            - Unstable Gunmetal: 18
-                5: 
-                    description:
-                        - Vault Size (+8 Rows)
-                    requirements:
-                        - rank: 28
-                        - materials:
-                            - Credits: 10000
-                            - Unstable Diode: 50
-                            - Unstable Gunmetal: 30
+  upgrades:
+    - name: "EXPANSION"
+      levels: 5
+      level:
+        - 1:
+          description: "Vault Size (+8 Rows)"
+          requirements:
+            - rank: 3
+            - materials:
+              - Credits: 2500
+              - Unstable Diode: 12
+        - 2: 
+          description: "Vault Size (+8 Rows)"
+          requirements:
+            - rank: 7
+            - materials:
+              - Credits: 4000
+              - Unstable Diode: 22
+              - Unstable Gunmetal: 12
+        - 3: 
+          description: "Vault Size (+8 Rows)"
+          requirements:
+            - rank: 12
+            - materials:
+              - Credits: 5000
+              - Unstable Diode: 27
+              - Unstable Gunmetal: 15
+        - 4: 
+          description: "Vault Size (+8 Rows)"
+          requirements:
+            - rank: 18
+            - materials:
+              - Credits: 7000
+              - Unstable Diode: 30
+              - Unstable Gunmetal: 18
+        - 5: 
+          description: "Vault Size (+8 Rows)"
+          requirements:
+            - rank: 28
+            - materials:
+              - Credits: 10000
+              - Unstable Diode: 50
+              - Unstable Gunmetal: 30
         - name: "Informant.exe"
-            levels: 2
-            level:
-                1:
-                    description:
-                        - Data Card Credit Value (+50%)
-                    requirements:
-                        - rank: 2
-                        - materials:
-                            - Credits: 1500
-                2: 
-                    description:
-                        - Data Card Credit Value (+50%)
-                    requirements:
-                        - rank: 15
-                        - materials:
-                            - Credits: 2000
+          levels: 2
+          level:
+            - 1:
+              description: "Data Card Credit Value (+50%)"
+              requirements:
+                - rank: 2
+                - materials:
+                  - Credits: 1500
+            - 2: 
+              description: "Data Card Credit Value (+50%)"
+              requirements:
+                - rank: 15
+                - materials:
+                  - Credits: 2000
         - name: "Credit Limit"
-            levels: 5
-            level:
-                1:
-                    description:
-                        - Credit Wallet Capacity (+20k)
-                    requirements:
-                        - rank: 4
-                        - materials:
-                            - Credits: 2500
-                2: 
-                    description:
-                        - Credit Wallet Capacity (+50k)
-                    requirements:
-                        - rank: 8
-                        - materials:
-                            - Credits: 4000
-                3: 
-                    description:
-                        - Credit Wallet Capacity (+200k)
-                    requirements:
-                        - rank: 12
-                        - materials:
-                            - Credits: 7000
-                4: 
-                    description:
-                        - Credit Wallet Capacity (+200k)
-                    requirements:
-                        - rank: 18
-                        - materials:
-                            - Credits: 10000
-                5: 
-                    description:
-                        - Credit Wallet Capacity (+9000k)
-                    requirements:
-                        - rank: 25
-                        - materials:
-                            - Credits: 50000
+          levels: 5
+          level:
+            - 1:
+              description: "Credit Wallet Capacity (+20k)"
+              requirements:
+                - rank: 4
+                - materials:
+                  - Credits: 2500
+            - 2: 
+              description: "Credit Wallet Capacity (+50k)"
+              requirements:
+                - rank: 8
+                - materials:
+                  - Credits: 4000
+            - 3: 
+              description: "Credit Wallet Capacity (+200k)"
+              requirements:
+                - rank: 12
+                - materials:
+                  - Credits: 7000
+            - 4: 
+              description: "Credit Wallet Capacity (+200k)"
+              requirements:
+                - rank: 18
+                - materials:
+                  - Credits: 10000
+            - 5: 
+              description: "Credit Wallet Capacity (+9000k)"
+              requirements:
+                - rank: 25
+                - materials:
+                  - Credits: 50000
         - name: "Enhanced Weaponry"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks Enhanced Overrun AR, V11 Punch, and CE Tactical Sidearm for purchase from CyberAcme.
-                    requirements:
-                        - rank: 4
-                        - materials:
-                            - Credits: 2500
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks Enhanced Overrun AR, V11 Punch, and CE Tactical Sidearm for purchase from CyberAcme."
+              requirements:
+                - rank: 4
+                - materials:
+                  - Credits: 2500
         - name: "Deluxe Weaponry"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks Deluxe Overrun AR, V11 Punch, and CE Tactical Sidearm for purchase from CyberAcme.
-                    requirements:
-                        - rank: 14
-                        - materials:
-                            - Credits: 4000
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks Deluxe Overrun AR, V11 Punch, and CE Tactical Sidearm for purchase from CyberAcme."
+              requirements:
+                - rank: 14
+                - materials:
+                  - Credits: 4000
         - name: "Heat_Sink.exe"
-            levels: 3
-            level:
-                1:
-                    description:
-                        - Heat Capacity (+20)
-                    requirements:
-                        - rank: 1
-                        - materials:
-                            - Credits: 2500
-                            - Unstable Biomass: 12
-                2: 
-                    description:
-                        - Heat Capacity (+20)
-                    requirements:
-                        - rank: 12
-                        - materials:
-                            - Credits: 3500
-                            - Unstable Biomass: 24
-                            - Unstable Lead: 12
-                3: 
-                    description:
-                        - Heat Capacity (+20)
-                    requirements:
-                        - rank: 16
-                        - materials:
-                            - Credits: 5000
-                            - Unstable Biomass: 30
-                            - Unstable Lead: 20
+          levels: 3
+          level:
+            - 1:
+              description: "Heat Capacity (+20)"
+              requirements:
+                - rank: 1
+                - materials:
+                  - Credits: 2500
+                  - Unstable Biomass: 12
+            - 2: 
+              description: "Heat Capacity (+20)"
+              requirements:
+                - rank: 12
+                - materials:
+                  - Credits: 3500
+                  - Unstable Biomass: 24
+                  - Unstable Lead: 12
+            - 3: 
+              description: "Heat Capacity (+20)"
+              requirements:
+                - rank: 16
+                - materials:
+                  - Credits: 5000
+                  - Unstable Biomass: 30
+                  - Unstable Lead: 20
         - name: "Carrier"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks Enhanced Backpacks for purchase in the Armory.
-                    requirements:
-                        - rank: 5
-                        - materials:
-                            - Credits: 1500
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks Enhanced Backpacks for purchase in the Armory."
+              requirements:
+                - rank: 5
+                - materials:
+                  - Credits: 1500
         - name: "Carrier+"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks Deluxe Backpacks for purchase in the Armory.
-                    requirements:
-                        - rank: 15
-                        - materials:
-                            - Credits: 4000
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks Deluxe Backpacks for purchase in the Armory."
+              requirements:
+                - rank: 15
+                - materials:
+                  - Credits: 4000
         - name: "Quick_Vent.exe"
-            levels: 2
-            level:
-                1:
-                    description:
-                        - Heat Recovery Speed (-20)
-                    requirements:
-                        - rank: 4
-                        - materials:
-                            - Credits: 2500
-                            - Unstable Gel: 8
-                2: 
-                    description:
-                        - Heat Recovery Speed (-20)
-                    requirements:
-                        - rank: 19
-                        - materials:
-                            - Credits: 4000
-                            - Unstable Gel: 16
+          levels: 2
+          level:
+            - 1:
+              description: "Heat Recovery Speed (-20)"
+              requirements:
+                - rank: 4
+                - materials:
+                  - Credits: 2500
+                  - Unstable Gel: 8
+            - 2: 
+              description: "Heat Recovery Speed (-20)"
+              requirements:
+                - rank: 19
+                - materials:
+                  - Credits: 4000
+                  - Unstable Gel: 16
         - name: "Scavenger.exe"
-            levels: 3
-            level:
-                1:
-                    description:
-                        - Loot Speed (+20)
-                    requirements:
-                        - rank: 1
-                        - materials:
-                            - Credits: 750
-                2: 
-                    description:
-                        - Loot Speed (+20)
-                    requirements:
-                        - rank: 4
-                        - materials:
-                            - Credits: 2500
-                3: 
-                    description:
-                        - Loot Speed (+20)
-                    requirements:
-                        - rank: 16
-                        - materials:
-                            - Credits: 4000
+          levels: 3
+          level:
+            - 1:
+              description: "Loot Speed (+20)"
+              requirements:
+                - rank: 1
+                - materials:
+                  - Credits: 750
+            - 2: 
+              description: "Loot Speed (+20)"
+              requirements:
+                - rank: 4
+                - materials:
+                  - Credits: 2500
+            - 3: 
+              description: "Loot Speed (+20)"
+              requirements:
+                - rank: 16
+                - materials:
+                  - Credits: 4000
         - name: "Loot_Siphon.exe"
-            levels: 2
-            level:
-                1:
-                    description:
-                        - Tactical Energy on Container Loot (+5%)
-                    requirements:
-                        - rank: 7
-                        - materials:
-                            - Credits: 1500
-                2: 
-                    description:
-                        - Tactical Energy on Container Loot (+5%)
-                    requirements:
-                        - rank: 17
-                        - materials:
-                            - Credits: 4000
+          levels: 2
+          level:
+            - 1:
+              description: "Tactical Energy on Container Loot (+5%)"
+              requirements:
+                - rank: 7
+                - materials:
+                  - Credits: 1500
+            - 2: 
+              description: "Tactical Energy on Container Loot (+5%)"
+              requirements:
+                - rank: 17
+                - materials:
+                  - Credits: 4000
         - name: "Soundproof.exe"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - You make less noise while looting.
-                    requirements:
-                        - rank: VIP Rank 1
-                        - materials:
-                            - Credits: 5000
+          levels: 1
+          level:
+            - 1:
+              description: "You make less noise while looting."
+              requirements:
+                - rank: VIP Rank 1
+                - materials:
+                  - Credits: 5000
         - name: "Active_Cool.exe"
-            levels: 2
-            level:
-                1:
-                    description:
-                        - Heat Recovery Rate (+15%)
-                    requirements:
-                        - rank: 13
-                        - materials:
-                            - Credits: 3500
-                            - Unstable Gel: 24
-                2: 
-                    description:
-                        - Heat Recovery Rate (+15%)
-                    requirements:
-                        - rank: 23
-                        - materials:
-                            - Credits: 5000
-                            - Unstable Gel: 30
+          levels: 2
+          level:
+            - 1:
+              description: "Heat Recovery Rate (+15%)"
+              requirements:
+                - rank: 13
+                - materials:
+                  - Credits: 3500
+                  - Unstable Gel: 24
+            - 2: 
+              description: "Heat Recovery Rate (+15%)"
+              requirements:
+                - rank: 23
+                - materials:
+                  - Credits: 5000
+                  - Unstable Gel: 30
         - name: "Firm_Stance.exe"
-            levels: 3
-            level:
-                1:
-                    description:
-                        - Fall Resistance (+20)
-                    requirements:
-                        - rank: 1
-                        - materials:
-                            - Credits: 750
-                2: 
-                    description:
-                        - Fall Resistance (+20)
-                    requirements:
-                        - rank: 11
-                        - materials:
-                            - Credits: 4000
-                3: 
-                    description:
-                        - Fall Resistance (+20)
-                    requirements:
-                        - rank: 26
-                        - materials:
-                            - Credits: 5000
+          levels: 3
+          level:
+            - 1:
+              description: "Fall Resistance (+20)"
+              requirements:
+                - rank: 1
+                - materials:
+                  - Credits: 750
+            - 2: 
+              description: "Fall Resistance (+20)"
+              requirements:
+                - rank: 11
+                - materials:
+                  - Credits: 4000
+            - 3: 
+              description: "Fall Resistance (+20)"
+              requirements:
+                - rank: 26
+                - materials:
+                  - Credits: 5000
         - name: "Loose_Change.exe"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Opening a container rewards you with 25 credits.
-                    requirements:
-                        - rank: VIP Rank 1
-                        - materials:
-                            - Credits: 5000
+          levels: 1
+          level:
+            - 1:
+              description: "Opening a container rewards you with 25 credits."
+              requirements:
+                - rank: VIP Rank 1
+                - materials:
+                  - Credits: 5000
         - name: "Locksmith"
-            levels: 3
-            level:
-                1:
-                    description:
-                        - Unlocks Lockbox Key for purchase in the Armory.
-                    requirements:
-                        - rank: 4
-                        - materials:
-                            - Credits: 2500
-                2: 
-                    name: Keymaker
-                    description:
-                        - Unlocks Deluxe Key Template for purchase in the Armory.
-                    requirements:
-                        - rank: 16
-                        - materials:
-                            - Credits: 4000
-                3: 
-                    name: Keymaker+
-                    description:
-                        - Unlocks Superior Key Template for purchase in the Armory.
-                    requirements:
-                        - rank: 28
-                        - materials:
-                            - Credits: 7000
+          levels: 3
+          level:
+            - 1:
+              description: "Unlocks Lockbox Key for purchase in the Armory."
+              requirements:
+                - rank: 4
+                - materials:
+                  - Credits: 2500
+            - 2: 
+              name: "Keymaker"
+              description: "Unlocks Deluxe Key Template for purchase in the Armory."
+              requirements:
+                - rank: 16
+                - materials:
+                  - Credits: 4000
+            - 3: 
+              name: "Keymaker+"
+              description: "Unlocks Superior Key Template for purchase in the Armory."
+              requirements:
+                  - rank: 28
+                  - materials:
+                      - Credits: 7000
         - name: "Fixative.exe"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - ROOK gains an increased chance of finding Matter Fixatives when defeating UESC.
-                    requirements:
-                        - rank: 25
-                        - materials:
-                            - Credits: 3500
+          levels: 1
+          level:
+            - 1:
+              description: "ROOK gains an increased chance of finding Matter Fixatives when defeating UESC."
+              requirements:
+                - rank: 25
+                - materials:
+                  - Credits: 3500
         - name: "Slider.exe"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Your sprint slide generates less heat.
-                    requirements:
-                        - rank: VIP Rank 1
-                        - materials:
-                            - Credits: 7000
+          levels: 1
+          level:
+            - 1:
+              description: "Your sprint slide generates less heat."
+              requirements:
+                - rank: VIP Rank 1
+                - materials:
+                  - Credits: 7000
     capstones:
         - name: "Bonus Pay"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - CyberAcme standard contracts will now award increased credits upon completion.
-                    requirements:
-                        - rank: 0
-                        - nodes: 6
+          levels: 1
+          level:
+            - 1:
+              description: "CyberAcme standard contracts will now award increased credits upon completion."
+              requirements:
+                - rank: 0
+                - nodes: 6
         - name: "Treasure_Hunter"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - CyAc Treasure Reputation (+20%)
-                    requirements:
-                        - rank: 0
-                        - nodes: 12
+          levels: 1
+          level:
+            - 1:
+              description: "CyAc Treasure Reputation (+20%)"
+              requirements:
+                - rank: 0
+                - nodes: 12
         - name: "Sponsorship [CyberAcme]"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks CyberAcme Advanced Sponsored Kit for purchase in the Armory.
-                    requirements:
-                        - rank: 1
-                        - nodes: 18
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks CyberAcme Advanced Sponsored Kit for purchase in the Armory."
+              requirements:
+                - rank: 1
+                - nodes: 18
         - name: "Stipend"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - ROOK will now start runs with a small amount of credits in addition to their basic gear.
-                    requirements:
-                        - rank: 0
-                        - nodes: 24
+          levels: 1
+          level:
+            - 1:
+              description: "ROOK will now start runs with a small amount of credits in addition to their basic gear."
+              requirements:
+                - rank: 0
+                - nodes: 24
         - name: "Max Looter"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - Unlocks Superior Backpacks for purchase in the Armory.
-                    requirements:
-                        - rank: 0
-                        - nodes: 32
+          levels: 1
+          level:
+            - 1:
+              description: "Unlocks Superior Backpacks for purchase in the Armory."
+              requirements:
+                - rank: 0
+                - nodes: 32
         - name: "(ROOK) Carrier"
-            levels: 1
-            level:
-                1:
-                    description:
-                        - ROOK will now start runs with a Deluxe Backpack in addition to their basic gear.
-                    requirements:
-                        - rank: 0
-                        - nodes: 38
+          levels: 1
+          level:
+            - 1:
+              description: "ROOK will now start runs with a Deluxe Backpack in addition to their basic gear."
+              requirements:
+                - rank: 0
+                - nodes: 38
     materials:
-        - name: "Credits"
-            amount: 200000
-        - name: "Unstable Diode"
-            amount: 141
-        - name: "Unstable Gel"
-            amount: 78
-        - name: "Unstable Gunmetal"
-            amount: 75
-        - name: "Unstable Biomass"
-            amount: 66
-        - name: "Unstable Lead"
-            amount: 32
+      - name: "Credits"
+        amount: 200000
+      - name: "Unstable Diode"
+        amount: 141
+      - name: "Unstable Gel"
+        amount: 78
+      - name: "Unstable Gunmetal"
+        amount: 75
+      - name: "Unstable Biomass"
+        amount: 66
+      - name: "Unstable Lead"
+        amount: 32
