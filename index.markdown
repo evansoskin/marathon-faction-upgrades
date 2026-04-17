@@ -4,6 +4,10 @@
 
 layout: default
 ---
+### HERE ###
+
+{{ site.data}}
+
 <ul>
 {% for upgrade in site.data.cyberacme.upgrades %}
   <li>
