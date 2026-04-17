@@ -3,6 +3,7 @@
 CyberAcme:
     upgrades:
         - Expansion:
+            name: "EXPANSION"
             levels: 5
             level:
                 1:
