@@ -2,8 +2,7 @@
 #================
 CyberAcme:
     upgrades:
-        - Expansion:
-            name: "EXPANSION"
+        - name: "EXPANSION"
             levels: 5
             level:
                 1:
@@ -50,7 +49,7 @@ CyberAcme:
                             - Credits: 10000
                             - Unstable Diode: 50
                             - Unstable Gunmetal: 30
-        - Informant.exe:
+        - name: "Informant.exe"
             levels: 2
             level:
                 1:
@@ -67,7 +66,7 @@ CyberAcme:
                         - rank: 15
                         - materials:
                             - Credits: 2000
-        - Credit Limit:
+        - name: "Credit Limit"
             levels: 5
             level:
                 1:
@@ -105,7 +104,7 @@ CyberAcme:
                         - rank: 25
                         - materials:
                             - Credits: 50000
-        - Enhanced Weaponry:
+        - name: "Enhanced Weaponry"
             levels: 1
             level:
                 1:
@@ -115,7 +114,7 @@ CyberAcme:
                         - rank: 4
                         - materials:
                             - Credits: 2500
-        - Deluxe Weaponry:
+        - name: "Deluxe Weaponry"
             levels: 1
             level:
                 1:
@@ -125,7 +124,7 @@ CyberAcme:
                         - rank: 14
                         - materials:
                             - Credits: 4000
-        - Heat_Sink.exe:
+        - name: "Heat_Sink.exe"
             levels: 3
             level:
                 1:
@@ -154,7 +153,7 @@ CyberAcme:
                             - Credits: 5000
                             - Unstable Biomass: 30
                             - Unstable Lead: 20
-        - Carrier:
+        - name: "Carrier"
             levels: 1
             level:
                 1:
@@ -164,7 +163,7 @@ CyberAcme:
                         - rank: 5
                         - materials:
                             - Credits: 1500
-        - Carrier+:
+        - name: "Carrier+"
             levels: 1
             level:
                 1:
@@ -174,7 +173,7 @@ CyberAcme:
                         - rank: 15
                         - materials:
                             - Credits: 4000
-        - Quick_Vent.exe:
+        - name: "Quick_Vent.exe"
             levels: 2
             level:
                 1:
@@ -193,7 +192,7 @@ CyberAcme:
                         - materials:
                             - Credits: 4000
                             - Unstable Gel: 16
-        - Scavenger.exe:
+        - name: "Scavenger.exe"
             levels: 3
             level:
                 1:
@@ -217,7 +216,7 @@ CyberAcme:
                         - rank: 16
                         - materials:
                             - Credits: 4000
-        - Loot_Siphon.exe:
+        - name: "Loot_Siphon.exe"
             levels: 2
             level:
                 1:
@@ -234,7 +233,7 @@ CyberAcme:
                         - rank: 17
                         - materials:
                             - Credits: 4000
-        - Soundproof.exe:
+        - name: "Soundproof.exe"
             levels: 1
             level:
                 1:
@@ -244,7 +243,7 @@ CyberAcme:
                         - rank: VIP Rank 1
                         - materials:
                             - Credits: 5000
-        - Active_Cool.exe:
+        - name: "Active_Cool.exe"
             levels: 2
             level:
                 1:
@@ -263,7 +262,7 @@ CyberAcme:
                         - materials:
                             - Credits: 5000
                             - Unstable Gel: 30
-        - Firm_Stance.exe:
+        - name: "Firm_Stance.exe"
             levels: 3
             level:
                 1:
@@ -287,7 +286,7 @@ CyberAcme:
                         - rank: 26
                         - materials:
                             - Credits: 5000
-        - Loose_Change.exe:
+        - name: "Loose_Change.exe"
             levels: 1
             level:
                 1:
@@ -297,7 +296,7 @@ CyberAcme:
                         - rank: VIP Rank 1
                         - materials:
                             - Credits: 5000
-        - Locksmith:
+        - name: "Locksmith"
             levels: 3
             level:
                 1:
@@ -323,7 +322,7 @@ CyberAcme:
                         - rank: 28
                         - materials:
                             - Credits: 7000
-        - Fixative.exe:
+        - name: "Fixative.exe"
             levels: 1
             level:
                 1:
@@ -333,7 +332,7 @@ CyberAcme:
                         - rank: 25
                         - materials:
                             - Credits: 3500
-        - Slider.exe:
+        - name: "Slider.exe"
             levels: 1
             level:
                 1:
@@ -344,7 +343,7 @@ CyberAcme:
                         - materials:
                             - Credits: 7000
     capstones:
-        - Bonus Pay:
+        - name: "Bonus Pay"
             levels: 1
             level:
                 1:
@@ -353,7 +352,7 @@ CyberAcme:
                     requirements:
                         - rank: 0
                         - nodes: 6
-        - Treasure_Hunter:
+        - name: "Treasure_Hunter"
             levels: 1
             level:
                 1:
@@ -362,7 +361,7 @@ CyberAcme:
                     requirements:
                         - rank: 0
                         - nodes: 12
-        - Sponsorship [CyberAcme]:
+        - name: "Sponsorship [CyberAcme]"
             levels: 1
             level:
                 1:
@@ -371,7 +370,7 @@ CyberAcme:
                     requirements:
                         - rank: 1
                         - nodes: 18
-        - Stipend:
+        - name: "Stipend"
             levels: 1
             level:
                 1:
@@ -380,7 +379,7 @@ CyberAcme:
                     requirements:
                         - rank: 0
                         - nodes: 24
-        - Max Looter:
+        - name: "Max Looter"
             levels: 1
             level:
                 1:
@@ -389,7 +388,7 @@ CyberAcme:
                     requirements:
                         - rank: 0
                         - nodes: 32
-        - (ROOK) Carrier:
+        - name: "(ROOK) Carrier"
             levels: 1
             level:
                 1:
@@ -399,15 +398,15 @@ CyberAcme:
                         - rank: 0
                         - nodes: 38
     materials:
-        - Credits:
-            200000
-        - Unstable Diode:
-            141
-        - Unstable Gel:
-            78
-        - Unstable Gunmetal:
-            75
-        - Unstable Biomass:
-            66
-        - Unstable Lead:
-            32
+        - name: "Credits"
+            amount: 200000
+        - name: "Unstable Diode"
+            amount: 141
+        - name: "Unstable Gel"
+            amount: 78
+        - name: "Unstable Gunmetal"
+            amount: 75
+        - name: "Unstable Biomass"
+            amount: 66
+        - name: "Unstable Lead"
+            amount: 32
