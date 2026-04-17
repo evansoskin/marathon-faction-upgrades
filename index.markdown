@@ -4,3 +4,10 @@
 
 layout: default
 ---
+<ul>
+{% for upgrade in site.data.cyberacme.upgrades %}
+  <li>
+    {{ upgrade.name }}
+  </li>
+{% endfor %}
+</ul>
