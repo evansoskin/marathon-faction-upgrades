@@ -4,14 +4,16 @@
 
 layout: default
 ---
-### HERE ###
-
-{{ site.data.cyberacme.CyberAcme }}
-
+### CYBERACME
 <ul>
 {% for upgrade in site.data.cyberacme.CyberAcme.upgrades %}
   <li>
     {{ upgrade.name }}
+    <li>
+      {% for option in upgrade %}
+        {{ option.value }}
+      {% endfor %}
+    </li>
   </li>
 {% endfor %}
 </ul>
