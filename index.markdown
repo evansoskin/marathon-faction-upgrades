@@ -8,12 +8,10 @@ layout: default
 
 {{ site.data.cyberacme.CyberAcme }}
 
-<div>
-  <ul>
-  {% for upgrade in site.data.cyberacme.cyberacme.upgrades %}
-    <li>
-      {{ upgrade.name }}
-    </li>
-  {% endfor %}
-  </ul>
-</div>
+<ul>
+{% for upgrade in site.data.cyberacme.CyberaAcme.upgrades %}
+  <li>
+    {{ upgrade.name }}
+  </li>
+{% endfor %}
+</ul>
