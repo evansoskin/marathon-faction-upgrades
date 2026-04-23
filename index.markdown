@@ -9,11 +9,13 @@ layout: default
 {% for upgrade in site.data.cyberacme.CyberAcme.upgrades %}
   <li>
     {{ upgrade.name }}
-    <li>
+    <ul>
       {% for option in upgrade %}
-        {{ option.value }}
+        <li>
+          {{ option }}
+        </li>
       {% endfor %}
-    </li>
+    </ul>
   </li>
 {% endfor %}
 </ul>
