@@ -9,9 +9,9 @@ layout: default
 {{ site.data.cyberacme.CyberAcme }}
 
 <ul>
-{% for upgrade in site.data.cyberacme.CyberaAcme.upgrades %}
+{% for upgrade in site.data.cyberacme.CyberaAcme %}
   <li>
-    {{ upgrade.name }}
+    {{ upgrade }}
   </li>
 {% endfor %}
 </ul>
