@@ -6,10 +6,10 @@ layout: default
 ---
 ### HERE ###
 
-{{ site.data.cyberacme.upgrades }}
+{{ site.data.cyberacme.cyberacme.upgrades }}
 
 <ul>
-{% for upgrade in site.data.cyberacme.upgrades %}
+{% for upgrade in site.data.cyberacme.cyberacme.upgrades %}
   <li>
     {{ upgrade.name }}
   </li>
