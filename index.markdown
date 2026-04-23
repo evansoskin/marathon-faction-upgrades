@@ -6,7 +6,7 @@ layout: default
 ---
 ### HERE ###
 
-<div>{{ site.data.cyberacme.cyberacme.upgrades }}</div>
+{{ site.data.cyberacme.CyberAcme }}
 
 <div>
   <ul>
